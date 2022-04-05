@@ -1,0 +1,83 @@
+body {
+    font-family: monospace;
+    margin: 0px;
+    background-image: url(./img/back_image.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: screen;
+    
+}
+
+.cabecalho {
+    background-color: #04B1D7;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    padding-left: 25px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    
+
+    
+}
+
+
+
+.container {
+    width: 100%;
+    
+}
+
+.calcMDC p{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    
+}
+
+.calcMDC {
+    padding: 0px 70px 0px 70px;
+    justify-content: center;    
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+}
+
+.inputMDC {
+    font-size: 24px;
+    margin: 0px 15px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+
+.botao {
+    display: flex;
+    justify-content: center;
+}
+
+
+.botaoCalcular {
+    font-size: 22px;
+    padding: 2px 10px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(40, 51, 197);
+    border-radius: 8px;
+    justify-content: center;
+    font-family: monospace;    
+}
+
+.botaoCalcular:hover {
+    font-size: 22px;
+    padding: 2px 10px;
+    margin-top: 20px;
+    color: white;
+    background-color: rgb(25, 34, 163);
+    border-radius: 8px;
+    justify-content: center;
+    font-family: monospace;
+}

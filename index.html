@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container" >  
+           <div id="mainLogo">
+                <img src="./assets/img/mainlogo.svg" alt="logo principal">
+           </div>         
+        </div>
+        
+
+    </header>
+    <main>
+        <div class="container">
+            <section class="areaCalculos">
+                <div class="calcMDC">
+                    <p>Digite os números que você quer descobrir o Máximo Divisor Comum (MDC)</p>
+                    <div class="inputs">
+                        <input type="number" name="" id="input1" class="inputMDC">
+                        <input type="number" name="" id="input2" class="inputMDC">
+                    </div>
+                    <div class="botao" >
+                        <button class="botaoCalcular" onclick="calcularMDC()" >Calcular</button>
+                    </div>
+                    <div class="result">
+                        <p id="resultText"> </p>
+                    </div>
+                </div>
+
+            </section>
+
+
+        </div>
+
+
+    </main>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
