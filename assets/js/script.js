@@ -29,11 +29,7 @@ function calcularMDC() {
     } else {
         msg.innerHTML = 'PREENCHA OS CAMPOS COM VALORES!'
         result.innerHTML = ''
-    }
-    
-
-    
-
+    } 
 }
 
 function calcularMMC() {
@@ -43,36 +39,30 @@ function calcularMMC() {
     a = input3.value
     b = input4.value
 
-    if (a > b) {
-        maior = a
-    } else {
-        maior = b
+    if (a == 0 || b == 0) {
+        mmc = 0
     }
 
-    divisor = 2;
-    mmc = 1;
-    while (divisor <= maior) {
-        if (a % divisor === 0 || b % divisor === 0) {
-            if (a % divisor === 0 && b % divisor === 0) {
-            a = a / divisor;
-            b = b / divisor;
-            mmc = mmc * divisor;
-            }
+    else {
+        divisor = 2;
+        mmc = 1;
+        while (a + b != 2) {
+            if (a % divisor === 0 || b % divisor === 0) {
+                mmc = mmc * divisor;         
 
-            if (a % divisor === 0 && b % divisor !== 0) {
-            a = a / divisor;
-            mmc = mmc * divisor;
-            }
+                if (a % divisor === 0) {
+                a = a / divisor;            
+                }
 
-            if (b % divisor === 0 && a % divisor !== 0) {
-            b = b / divisor;
-            mmc = mmc * divisor;
+                if (b % divisor === 0) {
+                b = b / divisor;    
+                }
+            } else {
+                divisor = divisor + 1;
             }
-        } else {
-            divisor = divisor + 1;
         }
     }
-
+    
     const result = document.getElementById('resultTextMMC')
     const msg = document.getElementById('noValueMMC')
 
@@ -83,5 +73,5 @@ function calcularMMC() {
         msg.innerHTML = 'PREENCHA OS CAMPOS COM VALORES!'   
         result.innerHTML = ''   
     }    
-
+    
 }
