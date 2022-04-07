@@ -26,7 +26,7 @@ body {
     
 }
 
-.calcMDC p{
+.calculator p{
     color: white;
     font-size: 25px;
     font-weight: bold;
@@ -35,9 +35,11 @@ body {
     
 }
 
-.calcMDC {
+.calculator {
     padding: 0px 70px 0px 70px;
-    justify-content: center;    
+    justify-content: center; 
+    margin-bottom: 170px; 
+    height: 190px;  
 }
 
 .inputs {
@@ -52,6 +54,12 @@ body {
     padding: 5px 10px;
 }
 
+.inputMMC {
+    font-size: 24px;
+    margin: 0px 15px;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
 
 .botao {
     display: flex;
@@ -80,3 +88,5 @@ body {
     justify-content: center;
     font-family: monospace;
 }
+
+
