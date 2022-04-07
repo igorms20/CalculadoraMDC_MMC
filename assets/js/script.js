@@ -22,8 +22,17 @@ function calcularMDC() {
     mdc = a
 
     const result = document.getElementById('resultTextMDC')
+    const msg = document.getElementById('noValueMDC')
+    if (v1 != "" && v2 != "") {
+        result.innerHTML = `O resultado é: ${mdc}`
+        msg.innerHTML = ''
+    } else {
+        msg.innerHTML = 'PREENCHA OS CAMPOS COM VALORES!'
+        result.innerHTML = ''
+    }
+    
 
-    result.innerHTML = `O resultado é: ${mdc}`
+    
 
 }
 
@@ -67,6 +76,14 @@ function calcularMMC() {
     }
 
     const result = document.getElementById('resultTextMMC')
-    result.innerHTML = `O resultado é ${mmc}`
+    const msg = document.getElementById('noValueMMC')
+
+    if (input3.value != "" && input4.value != "") {
+        result.innerHTML = `O resultado é: ${mmc}`
+        msg.innerHTML = ''
+    } else {
+        msg.innerHTML = 'PREENCHA OS CAMPOS COM VALORES!'   
+        result.innerHTML = ''   
+    }    
 
 }

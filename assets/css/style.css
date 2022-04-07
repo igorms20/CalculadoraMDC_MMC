@@ -90,3 +90,6 @@ body {
 }
 
 
+.alertMessage {
+    color: rgb(249, 249, 153);
+}
