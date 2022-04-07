@@ -40,8 +40,6 @@ function calcularMMC() {
     const input3 = document.getElementById('input3')
     const input4 = document.getElementById('input4')  
 
-    var a, b, divisor, mmc, maior;
-
     a = input3.value
     b = input4.value
 
@@ -78,7 +76,7 @@ function calcularMMC() {
     const result = document.getElementById('resultTextMMC')
     const msg = document.getElementById('noValueMMC')
 
-    if (input3.value != "" && input4.value != "") {
+    if (a != "" && b != "") {
         result.innerHTML = `O resultado é: ${mmc}`
         msg.innerHTML = ''
     } else {
