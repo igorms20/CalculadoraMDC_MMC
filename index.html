@@ -21,44 +21,40 @@
         <div class="container">
             <section class="areaCalculos">
                 <div class="calculator">
-                    <p>Digite os números que você quer descobrir o Máximo Divisor Comum (MDC)</p>
+                    <p>Cálculo do Máximo Divisor Comum (MDC)</p>
                     <div class="inputs">
-                        <input type="number" name="" id="input1" class="inputMDC">
-                        <input type="number" name="" id="input2" class="inputMDC">
+                        <input type="number" placeholder="Digite um valor" name="" id="input1" class="inputMDC">
+                        <input type="number" placeholder="Digite um valor" name="" id="input2" class="inputMDC">
                     </div>
                     <div class="botao" >
                         <button class="botaoCalcular" onclick="calcularMDC()" >Calcular</button>
                     </div>
-                    <div class="resultMDC">
-                        <p id="resultTextMDC"> </p>
+                    <div class="divResult"> 
+                        <div class="areaResult">
+                            <p id="resultTextMDC"> </p>
+                            <p id="noValueMDC" > </p>
+                        </div>
                     </div>
-                    <div class="alertMessage"> 
-                        <p id="noValueMDC" > </p>
-                    </div>
+                    
                 </div>
                 <div class="calculator">
-                    <p>Digite os números que você quer descobrir o Mínimo Múltiplo Comum (MMC)</p>
+                    <p>Cálculo do Mínimo Múltiplo Comum (MMC)</p>
                     <div class="inputs">
-                        <input type="number" name="" id="input3" class="inputMMC">
-                        <input type="number" name="" id="input4" class="inputMMC">
+                        <input type="number" placeholder="Digite um valor" name="" id="input3" class="inputMMC">
+                        <input type="number" placeholder="Digite um valor" name="" id="input4" class="inputMMC">
                     </div>
                     <div class="botao" >
                         <button class="botaoCalcular" onclick="calcularMMC()" >Calcular</button>
                     </div>
-                    <div class="resultMMC">
-                        <p id="resultTextMMC"> </p>
-                    </div>
-                    <div class="alertMessage"> 
-                        <p id="noValueMMC" > </p>
+                    <div class="divResult"> 
+                        <div class="areaResult">
+                            <p id="resultTextMMC"> </p>
+                            <p id="noValueMMC" > </p>
+                        </div>
                     </div>
                 </div>
-
             </section>
-
-
         </div>
-
-
     </main>
     <script src="./assets/js/script.js"></script>
 </body>

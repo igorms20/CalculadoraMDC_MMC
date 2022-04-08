@@ -27,7 +27,7 @@ body {
 }
 
 .calculator p{
-    color: white;
+    color: rgb(46, 175, 255);
     font-size: 25px;
     font-weight: bold;
     display: block;
@@ -38,8 +38,7 @@ body {
 .calculator {
     padding: 0px 70px 0px 70px;
     justify-content: center; 
-    margin-bottom: 170px; 
-    height: 190px;  
+    height: 330px;  
 }
 
 .inputs {
@@ -89,7 +88,38 @@ body {
     font-family: monospace;
 }
 
+#noValueMDC {
+    color: rgb(254, 137, 137);
+}
 
-.alertMessage {
-    color: rgb(249, 249, 153);
+#noValueMMC {
+    color: rgb(254, 137, 137);
+}
+
+.areaResult {
+    display: flex;
+    background-color: rgb(188, 255, 241);
+    width: 500px;
+    height: 45px;    
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.areaResult p {
+    text-align: center;
+}
+
+.divResult {
+    display: flex;
+    justify-content: center;
+}
+
+#resultTextMDC {
+    color: black;
+}
+
+#resultTextMMC {
+    color: black;
 }
