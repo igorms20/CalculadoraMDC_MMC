@@ -2,10 +2,7 @@ body {
     font-family: monospace;
     margin: 0px;
     /* background-image: url(./img/back_image.jpg); */
-    background-image: url(/assets/img/plusTR.svg);
     background-color: rgb(16, 16, 51);
-    background-repeat: round;
-    background-size: 300px;
     
 }
 
@@ -122,4 +119,19 @@ body {
 
 #resultTextMMC {
     color: black;
+}
+
+@media screen and (max-width: 675px) {
+    body {
+        width: 100%
+    }
+    .inputs {
+        width: 100%;
+        flex-direction: column;     
+    }
+    #input1, #input3 {
+        margin-bottom: 10px;
+    }
+
+
 }
