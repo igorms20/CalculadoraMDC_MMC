@@ -136,12 +136,16 @@ body {
     .inputMDC, .inputMMC, .calculator p {
         font-size: 18px;
     }
-    .botaoCalcular {
+    .botaoCalcular, .botaoCalcular:hover {
         font-size: 18px;
     }
     .areaResult {
         width: 440px;
         height: 30px;
+    }
+
+    #noValueMDC, #noValueMMC {
+        font-size: 16px;
     }
 
 }
