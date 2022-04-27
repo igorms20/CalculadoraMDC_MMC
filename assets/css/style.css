@@ -63,7 +63,7 @@ body {
 }
 
 
-.botaoCalcular {
+.botaoCalcular, .botaoCalcular:hover {
     font-size: 22px;
     padding: 2px 10px;
     margin-top: 20px;
@@ -75,14 +75,7 @@ body {
 }
 
 .botaoCalcular:hover {
-    font-size: 22px;
-    padding: 2px 10px;
-    margin-top: 20px;
-    color: white;
     background-color: rgb(25, 34, 163);
-    border-radius: 8px;
-    justify-content: center;
-    font-family: monospace;
 }
 
 #noValueMDC, #noValueMMC {
