@@ -85,17 +85,15 @@ body {
     font-family: monospace;
 }
 
-#noValueMDC {
-    color: rgb(254, 137, 137);
+#noValueMDC, #noValueMMC {
+    color: rgb(255, 75, 75);
 }
 
-#noValueMMC {
-    color: rgb(254, 137, 137);
-}
+
 
 .areaResult {
     display: flex;
-    background-color: rgb(188, 255, 241);
+    background-color: rgb(130, 217, 255);
     width: 500px;
     height: 45px;    
     border-radius: 10px;
@@ -113,13 +111,10 @@ body {
     justify-content: center;
 }
 
-#resultTextMDC {
+#resultTextMDC, #resultTextMMC {
     color: black;
 }
 
-#resultTextMMC {
-    color: black;
-}
 
 @media screen and (max-width: 675px) {
     body {
@@ -145,7 +140,7 @@ body {
     }
 
     #noValueMDC, #noValueMMC {
-        font-size: 16px;
+        font-size: 14px;
     }
 
 }
